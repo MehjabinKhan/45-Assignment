@@ -1,10 +1,7 @@
-// Imagine an alien was just shot down in a game. Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.
+// Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
 
-let alienColor = "green";
-if (alienColor === "green"){
-    console.log("Alien color is green so the player just earned 5 points.");
-}
+let guestList = ["Rizwana","Zahid","Mubashira","AliRaza"];
+// guestList.forEach(oneGuest => console.log(`Hello! ${oneGuest} "I would like to invite you to dinner."`));
 
-if (alienColor === "blue"){
-    console.log("Aien color is blue."); 
-}
+let lengthOfGuests: number = guestList.length;
+console.log(`We are inviting total ${lengthOfGuests} guests.`);

@@ -1,7 +1,5 @@
-// Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
+//Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person. Then compose your message and store it in a new variable called message. Print your message.
 
-let guestList = ["Rizwana","Zahid","Mubashira","AliRaza"];
-// guestList.forEach(oneGuest => console.log(`Hello! ${oneGuest} "I would like to invite you to dinner."`));
-
-let lengthOfGuests: number = guestList.length;
-console.log(`We are inviting total ${lengthOfGuests} guests.`);
+let famous_Person = "Albert Einstein";
+let message = "If you want to live a happy life,tie it to a goal.Not to people or things.";
+console.log(`${famous_Person} : "${message}"`);

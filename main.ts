@@ -1,5 +1,22 @@
-//Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person. Then compose your message and store it in a new variable called message. Print your message.
+//Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
 
-let famous_Person = "Albert Einstein";
-let message = "If you want to live a happy life,tie it to a goal.Not to people or things.";
-console.log(`${famous_Person} : "${message}"`);
+// Lowercase
+
+let personName = "Mehjabin Khan";
+console.log(personName.toLowerCase());
+
+// Uppercase
+
+let personName2 = "mehjabin khan";
+console.log(personName2.toUpperCase());
+
+// Titlecase
+
+let personName3 = "mehjabin khan";
+let firstName = (personName3.charAt(0).toUpperCase()+personName3.slice(1,8)); 
+let lastName = (personName3.charAt(9).toUpperCase()+personName3.slice(10,13));
+let Titlecase = firstName + ' ' + lastName ;
+console.log(Titlecase);
+
+
+

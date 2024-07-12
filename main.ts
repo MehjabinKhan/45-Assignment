@@ -1,5 +1,4 @@
-// Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
+// Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks:
 
-let favNumber = 22;
-let message = "Mine favourite number is:";
-console.log(`${message} ${favNumber}`);
+let famousQuote = "A winner is a dreamer who never gives up.";
+console.log(`Nelson Mandela once said, "${famousQuote}"`);

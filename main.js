@@ -1,4 +1,11 @@
-"use strict";
-// Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks:
-let famousQuote = "A winner is a dreamer who never gives up.";
-console.log(`Nelson Mandela once said, "${famousQuote}"`);
+var guess = 7;
+var target = 5;
+if (guess < target) {
+    console.log("Your guess is too high.");
+}
+else if (guess > target) {
+    console.log("your guess is too low.");
+}
+else {
+    console.log("You guessed correctly");
+}
